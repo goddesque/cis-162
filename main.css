@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+@font-face
+{
+   
+}
+
+/*
+
+my webpage css
+
+*/
+
+/* HTML and Body Styles */
+
+    body
+    {
+        background-color: lavenderblush;
+        font-family: courier new, monospace, sans-serif;
+    }
+
+    section
+    {
+        background-color: rgb(255, 214, 237);
+        width: 90%;
+        font-size: 1.1em;
+    }
+
+
+/* Heading Styles */
+
+    header
+    {
+        background-color: lavender;
+    }
+    
+    h1, h2
+    {
+        color: lightcoral;
+    }
+
+
+/* Aside and Blockquote Styles */
+
+
+
+/* Navigation Styles */	
+
+    nav > ul
+    {
+        line-height: 2em;
+        list-style-type: none;
+        padding-left: 50px;
+    }
+
+
+/* List Styles */
+
+
+
+/* Footer Styles */
+
+     footer
+    {
+        background-color: thistle;
+    }
+
+
