@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Netnomicon</title>
+        <link href="nn_styles1.css" rel="stylesheet" />
+    </head>
+        
+    <body>
+        
+        <header>
+        <h1>Netnomicon</h1>
+            <h4>Exorcisms, charms, and more!</h4>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="about">
+            <h2>Welcome and About</h2>
+            <p>Spicy jalapeno bacon ipsum dolor amet tongue in et commodo shank boudin enim ham. Non excepteur brisket biltong exercitation ut, beef dolor aute prosciutto quis tri-tip drumstick. Picanha enim et tail pork belly. Capicola ut corned beef, doner irure ex ball tip deserunt consequat labore. Ball tip nostrud landjaeger proident in flank duis ad dolore aliquip pork chop. </p>
+        </section>
+        
+        <section id="image">
+            <img src="witchhands.png" width="100%" height="100%" alt="witchhands">
+        </section>
+        
+        <section id="reviews">
+            <h2>Reviews</h2>
+        </section>
+        
+        <section id="review1">
+            <p>
+            "Fugiat tail laborum reprehenderit proident."
+            </p>
+        </section>
+        
+         <section id="review2">
+            <p>
+            "Do porchetta pariatur kevin pork, occaecat chicken buffalo nostrud sausage turkey ham enim consectetur."
+            </p>
+        </section>
+        
+         <section id="review3">
+            <p>
+            "Biltong tempor nulla adipisicing irure pork chop jowl officia pork belly bacon quis fugiat enim id tenderloin."
+            </p>
+        </section>
+        
+        <footer>
+            
+        </footer>
+    
+    </body>
+    
+</html>
