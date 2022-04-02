@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Netnomicon</title>
+        <link href="nn_styles1.css" rel="stylesheet" />
+    </head>
+        
+    <body>
+        
+        <header>
+        <h1>Contact</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <section class=products>
+            <a target="_blank" href="grimoire.png">
+                <img src="grimoire.png" alt="grimoire" >
+            </a>
+            <div class="desc">
+                <h4>Grimoire</h4>
+                A tome for multiple spell casting purposes
+            </div>
+            
+        </section>
+            
+        <section class=products>
+            <a target="_blank" href="lovepotion.png">
+                <img src="lovepotion.png" alt="lovepotion" >
+            </a>
+            <div class="desc">
+                <h4>Love Potion</h4>
+                Capture your heart's desire
+            </div>
+        </section>
+            
+        <section class=products>
+            <a target="_blank" href="witchesbrew.png">
+                <img src="witchesbrew.png" alt="witchesbrew" >
+            </a>
+            <div class="desc">
+                <h4>Witches Brew Mug</h4>
+                For late night spell-casting
+            </div>
+        </section>
+            
+        <section class=products>
+            <a target="_blank" href="sagebundle.png">
+                <img src="sagebundle.png" alt="sagebundle" >
+            </a>
+            <div class="desc">
+                <h4>Sage Bundle</h4>
+                Purify your workspace for new spells
+            </div>
+        </section>
+            
+        <section class=products>
+            <a target="_blank" href="monkeyspaw.png">
+                <img src="monkeyspaw.png" alt="monkeyspaw" >
+            </a>
+            <div class="desc">
+                <h4>Monkey's Paw</h4>
+                Use with caution when granting wishes
+            </div>
+        </section>
+            
+        <section class=products>
+            <a target="_blank" href="tarotcards.png">
+                <img src="tarotcards.png" alt="tarotcards" >
+            </a>
+            <div class="desc">
+                <h4>Tarot Card Deck</h4>
+                Divine your fate
+            </div>
+        </section>
+            
+        <section class=products>
+            <a target="_blank" href="energycrystal.png">
+                <img src="energycrystal.png" alt="energycrystal" >
+            </a>
+            <div class="desc">
+                <h4>Energy Crystal</h4>
+                A magic battery for your stronger spells
+            </div>
+        </section>
+        
+        <section class=products>
+            <a target="_blank" href="paperscroll.png">
+                <img src="paperscroll.png" alt="paperscroll" >
+            </a>
+            <div class="desc">
+                <h4>Spell Scroll</h4>
+                Choice of blessing or curse
+            </div>
+        </section>
+        
+        <section id=cenhead>
+            <h2>Order Form</h2>
+        </section>
+        
+        <section class="form">
+        <form id="orderProduct" action="/action_page.php">
+            
+            <div class="formRow">
+                <label for="name">Name:</label><br>
+                <input name="custName" id="name" type="text">
+            <br><br>
+            </div>
+            
+            <div class="formRow">
+                <label for="mail">Email:</label><br>
+                <input name="custEmail" id="mail" type="text">
+                <br><br>
+            </div>
+            
+            <div class="formRow">
+                <label for="order">Order:</label><br>
+                <select name="orderType" id="order">
+                    <option value="order1">Grimoire</option>
+                    <option value="order2">Love Potion</option>
+                    <option value="order3">Witches Brew Mug</option>
+                    <option value="order4">Sage Bungle</option>
+                    <option value="order5">Monkey's Paw</option>
+                    <option value="order6">Tarot Card Deck</option>
+                    <option value="order7">Energy Crystal</option>
+                    <optgroup label="Spell Scroll">
+                        <option value="spell1">Blessing</option>
+                        <option value="spell2">Curse</option>
+                    </optgroup>
+                </select>
+                <br><br>
+            </div>
+            
+            <div class="formRow">
+                <label for="card">Credit/Debit Card Number:</label><br>
+                <input name="custCard" id="card" type="text">
+                <br><br>
+            </div>
+            
+            <!--card type-->
+            <div class="formRow">
+                <label for="cardV">Visa</label>
+                <input name="cardType" value="Visa" type="radio">
+
+                <label for="cardM">Master Card</label>
+                <input name="cardType" value="Master Card" type="radio">
+
+                <label for="cardA">AmEx</label>
+                <input name="cardType" value="AmEx" type="radio">
+
+                <label for="cardD">Discover</label>
+                <input name="cardType" value="Discover" type="radio">
+                <br><br>
+            </div>
+            <!--card type-->
+            
+            <div class="formRow">
+                <label for="cvc">CVC:</label><br>
+                <input name="custCvc" id="cvc" type="text">
+                <br><br>
+            </div>
+            
+            <div class="formRow">
+                <label for="card">Credit/Debit Card Number:</label><br>
+                <input name="custCard" id="card" type="text">
+                <br><br>
+            </div>
+            
+            <div class="formRow">
+                <label for="street">Street address:</label><br>
+                <input name="custStreet" id="street" type="text" />
+                <br><br>
+            </div>
+            
+            <div class="formRow">
+                <label for="city">City:</label><br>
+                <input name="custCity" id="city" type="text" />
+                <br><br>
+            </div>
+            
+            <div class="formRow">
+                <label for="state">State:</label><br>
+                <input name="custState" id="state" type="text" />
+                <br><br>
+            </div>
+            
+            <div class="formRow">
+                <label for="zip">Postal Code:</label><br>
+                <input name="custZip" id="zip" type="text" />
+                <br><br>
+            </div>
+            
+            <div id="buttons">
+               <input type="submit" value="Order" />
+               <input type="reset" value="Cancel" />
+           </div>
+            
+            </form>
+            </section>
+        
+        
+        <footer>
+            
+        </footer>
+    
+    </body>
+    
+</html>
