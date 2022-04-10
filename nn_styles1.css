@@ -212,10 +212,24 @@ my webpage css
     }
 
 
-/* List Styles */
+/* Accordian Styles */
 
+    .accordion-button
+    {
+        background-color: rgb(154, 119, 207);
+        color: rgb(101, 55, 128); 
+    }
 
+    .accordion-item
+    {
+        background-color: lavender;
+    }
 
-/* Footer Styles */
+/* Card Styles */
+
+    .card
+    {
+        background-color: lavender;
+    }
 
    
