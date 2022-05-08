@@ -25,6 +25,13 @@ my webpage css
     div.row
     {
        background-color: rgb(255, 214, 237);
+        padding: 10px;
+    }
+
+    div.card, div.card-body, li.list-group-item
+    {
+        background-color: lavenderblush;
+        color: mediumpurple;
     }
 
     p 
@@ -76,7 +83,7 @@ my webpage css
     {
         display: inline-block;
         float: left;
-        width: 16.666%;
+        width: 14.28%;
         background-color: plum;
         font-size: 20px;
     }
