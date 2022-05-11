@@ -24,14 +24,22 @@ my webpage css
 
     div.row
     {
-       background-color: rgb(255, 214, 237);
-        padding: 10px;
+        background-color: rgb(255, 214, 237);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
     }
+
 
     div.card, div.card-body, li.list-group-item
     {
         background-color: lavenderblush;
         color: mediumpurple;
+    }
+
+    div.col
+    {
+
     }
 
     div.progress-bar
@@ -45,12 +53,23 @@ my webpage css
         margin-right: 3%;
     }
 
+    .no-gutters {
+      margin-right: 0;
+      margin-left: 0;
+
+      > .col,
+      > [class*="col-"] {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
 
 /* Heading Styles */
 
     header
     {
         background-color: lavender;
+        padding: 10px;
     }
 
     h1
@@ -106,6 +125,22 @@ my webpage css
         background-color: violet;
     }
 
+    nav.navbar
+    {
+        background-color: plum;
+        font-size: 20px;
+    }
+
+    li.nav-item:hover, a.navbar-brand:hover
+    {
+        background-color: violet;
+    }
+
+    ul.navbar-nav > li.nav-item > a.nav-link
+    {
+        color: lemonchiffon;
+    }
+
 
 /* List Styles */
 
@@ -117,6 +152,7 @@ my webpage css
     {
         
         background-color: thistle;
+        
     }
     
     footer > p 
